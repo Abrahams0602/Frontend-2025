@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><strong>Formulario de postulación a empleo</strong></h1>
+    </header>
+    <main>
+        <form action="/submit-form" method="post">
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <label for="username">Nombre:</label>
+                    <input type="text" id="username" name="username">
+                    <br><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                    <br><br>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" name="fecha" id="fecha">
+                    <br><br>
+                    <span>Género:</span>
+                    <br>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="masculino">
+                    <br>
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="femenino" name="femenino">
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Información de contacto</legend>
+                    <label for="mail">Correo Electrónico:</label>
+                    <input type="email" id="mail" name="mail">
+                    <br><br>
+                    <label for="numeroCel">Número de Teléfono:</label>
+                    <input type="tel" id="numeroCel" name="numeroCel">
+                    <br><br>
+                    <label for="direction">Dirección:</label>
+                    <br>
+                    <textarea id="direction" name="direction" rows="4" cols="50"></textarea>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Presentación profesional</legend>
+                    <label for="about-me">Cuéntenos sobre usted:</label>
+                    <br>
+                    <textarea id="about-me" name="about-me" rows="4" cols="50"></textarea>
+                    <br><br>
+                    <span>Nivel de estudios alcanzados:</span>
+                    <br>
+                    <label for="Primario">Primario</label>
+                    <input type="radio" id="Primario" name="Primario">
+                    <br>
+                    <label for="Secundario">Secundario</label>
+                    <input type="radio" id="Secundario" name="Secundario">
+                    <br>
+                    <label for="Universitario">Universitario</label>
+                    <input type="radio" id="Universitario" name="Universitario">
+                    <br>
+                    <label for="Posgrado">Posgrado</label>
+                    <input type="radio" id="Posgrado" name="Posgrado">
+                    <br><br>
+                    <span>Lenguajes en los que posee conocimiento:</span>
+                    <br>
+                    <input type="checkbox" name="JavaScript" id="JavaScript">
+                    <label for="JavaScript">JavaScript</label>
+                    <br>
+                    <input type="checkbox" name="Html" id="Html">
+                    <label for="Html">HTML</label>
+                    <br>
+                    <input type="checkbox" name="CSS" id="CSS">
+                    <label for="CSS">CSS</label>
+                    <br>
+                    <input type="checkbox" name="php" id="php">
+                    <label for="php">PHP</label>
+                    <br>
+                    <input type="checkbox" name="nodejs" id="nodejs">
+                    <label for="nodejs">NodeJS</label>
+                    <br>
+                    <input type="checkbox" name="python" id="python">
+                    <label for="python">Python</label>
+                    <br>
+                    <input type="checkbox" name="c#" id="c#">
+                    <label for="c#">C#</label>
+                    <br><br>
+                    <label for="LenguajesOption">Seleccione un Lenguaje favorito:</label>
+                    <select name="LenguajesOption" id="LenguajesOption">
+                        <option value="text">JavaScript</option>
+                        <option value="text">HTML</option>
+                        <option value="text">CSS</option>
+                        <option value="text">PHP</option>
+                        <option value="text">NodeJS</option>
+                        <option value="text">Python</option>
+                        <option value="text">C#</option>
+                    </select>
+                </fieldset>
+        </form>
+        <br>
+        <input type="checkbox" name="terms&cond" id="terms&cond">
+        <label for="terms&cond">Acepto los términos y Condiciones</label>
+        <br><br>
+        <button type="submit">Registrarse</button>
+    </main>
+</body>
+</html>
