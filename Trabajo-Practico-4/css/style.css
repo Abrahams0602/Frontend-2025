@@ -52,7 +52,9 @@ img{
     text-decoration: none;
     color:#667EEA;
     padding-top: 1em;
+    padding-bottom: 1em;
     padding-right: 2em ;
+    padding-left: 2em;
     display: inline-block;
     border-radius: 10px;
     font-weight: 500;
